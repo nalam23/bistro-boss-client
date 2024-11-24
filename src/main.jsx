@@ -12,7 +12,9 @@ import { router } from './routes/Routes.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
   
-  <RouterProvider router={router} />
+  <div className='max-w-screen-md mx-auto'>
+    <RouterProvider router={router} />
+    </div>
   
   </StrictMode>,
 )
